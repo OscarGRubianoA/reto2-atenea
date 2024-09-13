@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #546930;
+    padding: 1rem;
+    color: white;
+  }
+  header i {
+    color: white;
+    font-size: 2rem;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+    
+  }
+  input[type="date"],
+  input[type="select"],
+  input[type="text"]
+   {
+    padding: 1rem;
+    background-color: #83AF3F;
+    color: white;
+    font-size: 1rem;
+  }
+  input[type="submit"]{
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 1rem;
+border-radius: .5rem;
+cursor:pointer;
+margin-top: 2rem;
+  }
+  input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+  }
+  textarea{
+    background-color: #83AF3F;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  select{
+    background-color: #83AF3F;
+    padding: 1rem;
+    color: white;
+    font-size: .9rem;
+  }
+  input::placeholder {
+    color: white; /* Color del placeholder para la mayoría de los navegadores */
+     /* Asegura que el color sea visible */
+}
+textarea::placeholder {
+    color: white; /* Color del placeholder */
+    opacity: 1; /* Asegura que el color sea visible */
+}
+select option[disabled] {
+    color: white; /* Color del texto del placeholder */
+}
+select option {
+    color: white; /* Color del texto de las opciones */
+     /* Color de fondo de las opciones */
+}
+.fa-check,.fa-star{
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    bottom: 2.1rem;
+}
+.fa-audio-description{
+    color: white;
+    position: relative;
+    bottom: 8.5rem;
+}
+.fa-calendar{
+    color: white;
+    position: relative;
+    bottom: 2.2rem;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+   
+}
+footer i{
+    color: black;
+    font-size: 2rem;
+  }
+
+}
