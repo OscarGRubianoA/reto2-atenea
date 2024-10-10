@@ -19,8 +19,7 @@
     gap: 1rem;
     padding: 2rem 1rem;
   }
-
-  button {
+button {
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
